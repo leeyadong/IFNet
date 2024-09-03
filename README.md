@@ -33,20 +33,23 @@ The [USTC IP Lab](https://ustc-ip-lab.github.io/) has particular protocols for r
 ## Run Demo
 
 ## Citing
-If you find this code useful for your research, please consider citing the following paper:
+If you find this code useful for your research, please consider citing the following papers:
 ```
-@Article{Li2024,
-author={Li, Yadong and Zhang, Dongheng and Geng, Ruixu and Lu, Zhi and Wu, Zhi and Hu, Yang and Sun, Qibin and Chen, Yan},
-title={A high-resolution handheld millimeter-wave imaging system with phase error estimation and compensation},
-journal={Communications Engineering},
-year={2024},
-month={Jan},
-day={05},
-volume={3},
-number={1},
-pages={4},
-issn={2731-3395},
-doi={10.1038/s44172-023-00156-2},
-url={https://doi.org/10.1038/s44172-023-00156-2}
+@ARTICLE{li2024ifnet,
+  title = {IFNet: Deep Imaging and Focusing for Handheld SAR with Millimeter-wave Signals},
+  author = {Li, Yadong and Zhang, Dongheng and Geng, Ruixu and Wu, Jincheng and Hu, Yang and Sun, Qibin and Chen, Yan},
+  journal = {arXiv preprint},
+  year = {2024},
 }
+@INPROCEEDINGS{10447461,
+  author={Li, Yadong and Zhang, Dongheng and Geng, Ruixu and Wu, Jincheng and Hu, Yang and Sun, Qibin and Chen, Yan},
+  booktitle={ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={IFNet: Imaging and Focusing Network for handheld mmWave Devices}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={2415-2419},
+  doi={10.1109/ICASSP48485.2024.10447461}}
+
+
 ```
