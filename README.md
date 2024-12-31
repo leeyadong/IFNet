@@ -54,6 +54,9 @@ python train.py
 python test.py
 ```
 
+## Acknowledgments
+Special thanks to the incredible [DelburGAN](https://github.com/KupynOrest/DeblurGAN) repository, which was the foundation for the training framework in this repository.
+
 ## Citing
 If you find this code useful for your research, please consider citing the following paper:
 ```
