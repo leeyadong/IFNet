@@ -1,4 +1,3 @@
-# Coming in December
 
 # IFNet: Imaging and Fousing Network for Handheld SAR
 
@@ -27,3 +26,50 @@ to achieve robust imaging and focusing for handheld mmWave systems.
 </div>
 
 
+## How to Access the Code
+
+The [USTC IP Lab](https://ustc-ip-lab.github.io/) has particular protocols for releasing the code and dataset. To access the code, please sign the [code agreement](IPLabCodeAgreementIFNet.pdf), scan and send it to yadongli@uw.edu or yadongli@mail.ustc.edu.cn. A notification email that includes the code link will be sent within three days.
+
+## Run Demo
+### Requirements
+```
+pip3 install torch --index-url https://download.pytorch.org/whl/cu124
+```
+```
+pip install cython
+```
+```
+pip install torchbox numpy scipy dominate visdom
+```
+### Prepare the dataset
+- Download the raw ADC data and handheld trajectory from the link given in the replied email.
+- Put the raw ADC data in ./data/adc_data and the handheld trajectory in ./data/handheld_trajectory
+- Run python prepare_dataset.py
+
+
+## Citing
+If you find this code useful for your research, please consider citing the following paper:
+```
+@ARTICLE{ifnettmc,
+  author={Li, Yadong and Zhang, Dongheng and Geng, Ruixu and Wu, Jincheng and Hu, Yang and Sun, Qibin and Chen, Yan},
+  journal={IEEE Transactions on Mobile Computing}, 
+  title={IFNet: Deep Imaging and Focusing for Handheld SAR With Millimeter-Wave Signals}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-16},
+  doi={10.1109/TMC.2024.3489641}}
+}
+```
+```
+@INPROCEEDINGS{ifneticassp,
+  author={Li, Yadong and Zhang, Dongheng and Geng, Ruixu and Wu, Jincheng and Hu, Yang and Sun, Qibin and Chen, Yan},
+  booktitle={ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={IFNet: Imaging and Focusing Network for handheld mmWave Devices}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={2415-2419},
+  doi={10.1109/ICASSP48485.2024.10447461}}
+
+```
