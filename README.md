@@ -45,7 +45,14 @@ pip install torchbox numpy scipy dominate visdom
 - Download the raw ADC data and handheld trajectory from the link given in the replied email.
 - Put the raw ADC data in ./data/adc_data and the handheld trajectory in ./data/handheld_trajectory
 - Run python prepare_dataset.py
-
+### Train and test
+Set the dataset path in ./options/base_options.py, then run
+```
+python train.py
+```
+```
+python test.py
+```
 
 ## Citing
 If you find this code useful for your research, please consider citing the following paper:
